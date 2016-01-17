@@ -1,0 +1,128 @@
+nav ul a,
+nav .brand-logo {
+    color: white;
+}
+
+p {
+    line-height: 2rem;
+}
+
+.button-collapse {
+    color: #26a69a;
+}
+
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+footer.page-footer {
+    margin: 0;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.theme-color {
+    background-color: #91043D; !important;
+}
+
+.theme-color.color-lighten-1 {
+    background-color: #C40653; !important;
+}
+
+.theme-color.color-lighten-2 {
+    background-color: #C8326F; !important;
+}
+
+.theme-color.color-lighten-3 {
+    background-color: #DB598E; !important;
+}
+
+.theme-color.color-lighten-4 {
+    background-color: #E589AE; !important;
+}
+
+.theme-color.color-darken-1 {
+    background-color: #6F002D; !important;
+}
+
+h1, h2,
+.theme-color-text {
+    color: #91043D; !important;
+}
+
+.theme-color-text.text-lighten-1 {
+    color: #C8326F; !important;
+}
+
+.theme-color-text.text-lighten-2 {
+    color: #C8326F; !important;
+}
+
+.theme-color-text.text-lighten-3 {
+    color: #DB598E; !important;
+}
+
+.theme-color-text.text-lighten-4 {
+    color: #E589AE; !important;
+}
+
+.theme-color-text.text-darken-1 {
+    color: #6F002D; !important;
+}
+
+.clear-text-shadow {
+    -webkit-text-stroke: 1px black;
+    color: white;
+    text-shadow:
+            1px 1px 0 #000,
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+}
+
+.background-container {
+    background-color: rgba(0, 0, 0, 0.5); !important;
+}
+
+.card-title.card-title-text{
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    padding: 0.4em;
+}
